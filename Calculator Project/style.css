@@ -1,0 +1,175 @@
+body{	
+    font-family: 'Open Sans', sans-serif;
+    background-color:black;
+	text-align: center;
+  	color: white;
+  	position: relative;
+	
+}
+
+#container{
+    widows: 1000px;
+    height: 100%;
+    margin: 10px auto; 
+	
+	
+}
+#bg {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	min-width: 100%;
+	min-height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+     url(background2.jpg);
+  }
+  
+.headTittle {
+	
+    position:relative;
+    text-align:center;
+	color: darkred;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 30px;
+  }
+
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: lightslategray;
+	margin: 0 auto;
+	top: 10%;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+	color:yellow;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+	color: snow;
+}
+
+#keyboard{
+    height: 400px;
+}
+
+.operator, .number, .empty{
+	width: 50px;
+	 height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold; 
+	 font-size: 15px; 
+}
+.number, .empty{
+	background-color: lightcyan;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 10px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(1){
+	font-size: 20px;
+	background-color:lightskyblue;
+}
+button:nth-child(2){
+	font-size: 20px;
+	background-color:olive;
+}
+button:nth-child(3){
+	font-size: 20px;
+	background-color: gold;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #ff7f50;
+}
+button:nth-child(5){
+	font-size: 30px;
+	background-color: lightslategray;
+}
+button:nth-child(6){
+	font-size: 30px;
+	background-color: lightslategray;
+}
+button:nth-child(7){
+	font-size: 30px;
+	background-color: lightslategray;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #00ced1;
+}
+button:nth-child(9){
+	font-size: 30px;
+	background-color: lightslategray;
+}
+button:nth-child(10){
+	font-size: 30px;
+	background-color: lightslategray;
+}
+button:nth-child(11){
+	font-size: 30px;
+	background-color: lightslategray;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: burlywood;
+}
+button:nth-child(13){
+	font-size: 30px;
+	background-color: lightslategray;
+}
+button:nth-child(14){
+	font-size: 30px;
+	background-color: lightslategray;
+}
+button:nth-child(15){
+	font-size: 30px;
+	background-color: lightslategray;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: darkorchid;
+}
+button:nth-child(17){
+	font-size: 20px;
+	background-color: lightslategray;
+	
+}
+button:nth-child(18){
+	font-size: 30px;
+	background-color: lightslategray;
+}
+button:nth-child(19){
+	font-size: 20px;
+	background-color: lightslategray;
+
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: deepskyblue;
+}
